@@ -1,0 +1,235 @@
+.nav_color{
+    background-color: unset;
+    color: white;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("images/pexels-tyler-lastovich-772803.jpg");
+
+    min-height: 40vw;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+    display: flex;
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+.div_z{
+    justify-content: center;
+    align-content: center;
+}
+.div_x{
+    margin-left:29%;
+}
+.button1{
+    background-color: rgb(255, 201, 0);
+    height: 50px;
+    border-radius: 20px;
+    border: rgb(255, 201, 0) 1px solid;
+    color: white;
+    width: 17%;
+}
+.button2{
+    background-color: unset;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 1.5px yellow;
+    color: yellow;
+    width: 14%;
+}
+.background{
+    background-image: url("images/pexels-alesia-kozik-7899565.jpg");
+
+    min-height: 22vw;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    display: flex;
+
+
+}
+.title{
+    color: black;
+    font-weight: lighter;
+    font-size: xxx-large;
+
+}
+.cont{
+    justify-content: center;
+    align-content: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: bolder;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+.topnav a.active:hover{
+   font-weight: normal;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav_right {
+    float: right;
+}
+.first_div{
+    display: flex;
+    min-height: 38vw;
+    margin-top: 4vw;
+    width: 74%;
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color: #ffffff;
+}
+.second_div{
+    display: flex;
+    width: 50%;
+    min-height: 38vh;
+    background-color: #ffffff;
+}
+.third_div{
+    background-color: #3eaf92;
+    width: 78%;
+    margin-right: 9%;
+    margin-left: 13%;
+   color: white;
+    justify-content: center;
+
+}
+.btn1{
+    color: white;
+    background-color: unset;
+    height: 55px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+.fourth_div{
+    width: 50%;
+    min-height: 38vh;
+    background-color: #ffffff;
+
+}
+.second_h1{
+    color: #3eaf92;
+    margin-top: 3vh;
+
+
+}
+input{
+    width: 65%;
+    height: 41px;
+    background-color: rgba(231, 252, 234, 0.7);
+    border: none;
+}
+.btn2{
+    color: white;
+    background-color:#3eaf92 ;
+    height: 60px;
+    width: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: large;
+
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px  2px ;
+    border-radius: 50%;
+
+
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: #000000;
+    border: solid 0.5px black;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #ffffff;
+    color: #000000;
+    border: solid 0.5px black;
+
+}
+.fa-linkedin{
+    background: white;
+    color: #000000;
+    border: solid 0.5px black;
+}
+.nav-link{
+    color: white;
+}
+span{
+    font-size: x-large;
+}
+.span2{
+    color: yellow;
+}
+
+
